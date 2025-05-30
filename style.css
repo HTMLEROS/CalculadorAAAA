@@ -1,0 +1,86 @@
+body {
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título principal */
+h1 {
+  margin-top: 40px;
+  font-size: 36px;
+  color: #333;
+}
+
+/* Áreas de texto */
+textarea {
+  width: 250px;
+  height: 40px;
+  margin: 10px;
+  font-size: 18px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: border 0.3s;
+}
+
+textarea:focus {
+  border-color: #007BFF;
+}
+
+/* Resultado */
+#resultado {
+  font-size: 24px;       /* Tamaño de letra grande */
+  text-align: center;    /* Centra horizontalmente */
+  vertical-align: middle;
+  height: 30px;          /* Ajusta el alto */
+  width: 300px;
+  padding: 15px 10px;
+  resize: none;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  outline: none;
+}
+
+
+/* Botones */
+button {
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.botones-operaciones {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Responsive y centrado */
+center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
